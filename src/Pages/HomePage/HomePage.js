@@ -1,9 +1,10 @@
 import React from 'react';
+import StartSession from "../../Components/StartSession/StartSession";
 
 const HomePage = () => {
     return (
-        <div>
-            <h2></h2>
+        <div className={'container'}>
+            <StartSession/>
         </div>
     );
 };
